@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\Actio.Api.Tests\\Actio.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\Actio.Api.Tests\\Actio.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
+        "projectName": "Actio.Api.Tests",
+        "projectPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\Actio.Api.Tests\\Actio.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\Actio.Api.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Api\\Actio.Api.csproj": {
+                "projectPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Api\\Actio.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Api\\Actio.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Api\\Actio.Api.csproj",
+        "projectName": "Actio.Api",
+        "projectPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Api\\Actio.Api.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Common\\Actio.Common.csproj": {
+                "projectPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Common\\Actio.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Common\\Actio.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectName": "Actio.Common",
+        "projectPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Common\\Actio.Common.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\Desktop\\Kode_2020\\UdemyMicroservicesCourse\\src\\Actio.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

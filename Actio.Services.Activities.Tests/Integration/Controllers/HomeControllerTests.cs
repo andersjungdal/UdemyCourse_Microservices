@@ -1,0 +1,33 @@
+﻿using FluentAssertions;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.TestHost;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using Xunit;
+
+namespace Actio.Services.Activities.Tests.Integration.Controllers
+{
+    public class HomeControllerTests
+    {
+        private readonly TestServer server;
+        private readonly HttpClient client;
+        public HomeControllerTests()
+        {
+            this.server = new TestServer(WebHost.CreateDefaultBuilder()
+                .UseStartup<Startup>());
+            this.client = server.CreateClient();
+        }
+        [Fact]
+        public async Task home_controller_get_should_return_string_content()
+        {
+            var response = await client.GetAsync("/");
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            content.Should().BeEquivalentTo("Hello from Actio.Services.Activities API!");
+        }
+    }
+}
